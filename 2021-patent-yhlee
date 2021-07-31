@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-31T12:51:43.308Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="NGZ5m4jiXj9xp6O_aU-K" version="14.9.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-31T12:53:33.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="LSEorcuYfa1O6-EAiatc" version="14.9.3" type="github" pages="2">
   <diagram id="YgdCqoHexThxgsFSrZlw" name="구성도">
     <mxGraphModel dx="1186" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,6 +113,12 @@
         </mxCell>
         <mxCell id="YvyNCq9VxnBvuZIbFnww-0" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="x5P-9hwq-PDfau1DzbWf-1">
           <mxGeometry x="40" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YvyNCq9VxnBvuZIbFnww-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="x5P-9hwq-PDfau1DzbWf-1" source="YvyNCq9VxnBvuZIbFnww-2" target="jI4GJKDA6Vue2MpF4EnZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YvyNCq9VxnBvuZIbFnww-2" value="메이트 서버" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="x5P-9hwq-PDfau1DzbWf-1">
+          <mxGeometry x="40" y="320" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
