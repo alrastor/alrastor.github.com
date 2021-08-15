@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-15T09:44:19.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="P58-Zh3y-NKAn2RmBDcJ" version="14.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-15T09:50:54.580Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="5iMA5HQuUCYOvrPT50Bg" version="14.9.3" type="github" pages="4">
   <diagram id="YgdCqoHexThxgsFSrZlw" name="구성도">
     <mxGraphModel dx="1186" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,10 +124,60 @@
     </mxGraphModel>
   </diagram>
   <diagram id="F0s8E_y19YYrQfT7ph_Q" name="빅데이터 학습">
-    <mxGraphModel dx="1186" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="uAQBmPFsdLwLILUdhPTU-0" />
         <mxCell id="uAQBmPFsdLwLILUdhPTU-1" parent="uAQBmPFsdLwLILUdhPTU-0" />
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uAQBmPFsdLwLILUdhPTU-1" source="33MhZzBBGA6BZl-3vnCT-0" target="33MhZzBBGA6BZl-3vnCT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-0" value="Start Training" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uAQBmPFsdLwLILUdhPTU-1">
+          <mxGeometry x="160" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uAQBmPFsdLwLILUdhPTU-1" source="33MhZzBBGA6BZl-3vnCT-1" target="33MhZzBBGA6BZl-3vnCT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-1" value="Tag Sample Data for &lt;br&gt;Training and Evaluation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uAQBmPFsdLwLILUdhPTU-1">
+          <mxGeometry x="160" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uAQBmPFsdLwLILUdhPTU-1" source="33MhZzBBGA6BZl-3vnCT-2" target="33MhZzBBGA6BZl-3vnCT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-2" value="Train ml algorithm with tagged training data" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="uAQBmPFsdLwLILUdhPTU-1">
+          <mxGeometry x="160" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uAQBmPFsdLwLILUdhPTU-1" source="33MhZzBBGA6BZl-3vnCT-4" target="33MhZzBBGA6BZl-3vnCT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-4" value="Store a model to persist learned facts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uAQBmPFsdLwLILUdhPTU-1">
+          <mxGeometry x="160" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-14" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="uAQBmPFsdLwLILUdhPTU-1" source="33MhZzBBGA6BZl-3vnCT-7" target="33MhZzBBGA6BZl-3vnCT-6">
+          <mxGeometry x="-0.6296" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uAQBmPFsdLwLILUdhPTU-1" source="33MhZzBBGA6BZl-3vnCT-5" target="33MhZzBBGA6BZl-3vnCT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-5" value="Measure efficiency of training with tagged data for evaluation" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="uAQBmPFsdLwLILUdhPTU-1">
+          <mxGeometry x="160" y="560" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uAQBmPFsdLwLILUdhPTU-1" source="33MhZzBBGA6BZl-3vnCT-6" target="33MhZzBBGA6BZl-3vnCT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-6" value="Adjust algorithm or one of its parameters" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uAQBmPFsdLwLILUdhPTU-1">
+          <mxGeometry x="440" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uAQBmPFsdLwLILUdhPTU-1" source="33MhZzBBGA6BZl-3vnCT-7" target="33MhZzBBGA6BZl-3vnCT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-7" value="Is the result good &lt;br&gt;enough?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="uAQBmPFsdLwLILUdhPTU-1">
+          <mxGeometry x="160" y="680" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="33MhZzBBGA6BZl-3vnCT-8" value="End Training" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uAQBmPFsdLwLILUdhPTU-1">
+          <mxGeometry x="160" y="820" width="160" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
